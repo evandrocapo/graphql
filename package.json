@@ -1,0 +1,35 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon --exec babel-node src/index.js -e js,gql"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evandrocapo/graphql.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evandrocapo/graphql/issues"
+  },
+  "homepage": "https://github.com/evandrocapo/graphql#readme",
+  "dependencies": {
+    "@graphql-tools/load-files": "^6.6.1",
+    "@graphql-tools/merge": "^8.3.6",
+    "apollo-server": "^3.10.2",
+    "graphql": "^16.6.0",
+    "graphql-tools": "^8.3.6",
+    "mongoose": "^6.6.2",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.19.3",
+    "@babel/node": "^7.19.1",
+    "@babel/preset-env": "^7.19.3"
+  }
+}
